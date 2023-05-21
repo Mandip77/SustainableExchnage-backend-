@@ -19,7 +19,7 @@ Spring Boot and other necessary libraries
 MySQL database
 Setting Up
 Backend
-Clone the repository: git clone https://github.com/your-repository-link.
+Clone the repository: git clone https://github.com/Mandip77/SustainableExchnage.git.
 Navigate to the project directory: cd eco-exchange.
 Open the project in your preferred IDE.
 Install the necessary dependencies.
@@ -33,7 +33,7 @@ Contributing <a name = "contributing"></a>
 We welcome contributions from everyone. Here's how you can help:
 
 Fork the repository: Click on the 'Fork' button at the top right corner of this page.
-Clone your forked repository to your local machine: git clone https://github.com/<Your-GitHub-Username>/eco-exchange.
+Clone your forked repository to your local machine: git clone https://github.com/<Mandip77>/SustainableExchange.
 Navigate to the cloned directory: cd eco-exchange.
 Create a new branch for your feature: git checkout -b feature/YourFeatureName.
 Make your changes and commit them: git commit -m 'Add some feature'.
