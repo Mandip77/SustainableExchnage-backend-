@@ -19,7 +19,7 @@ The backend development plan is divided into several phases, which include setti
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/eco-exchange-backend.git
+    https://github.com/Mandip77/SustainableExchnage-Backend-.git
     cd eco-exchange-backend
     ```
 
