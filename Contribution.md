@@ -1,21 +1,21 @@
 ## Getting Started
 
-1.Fork the Eco-Exchange repository to your own GitHub account.
-2.Clone the forked repository to your local machine.
-3.Open the project in your favorite IDE.
+1. Fork the Eco-Exchange repository to your own GitHub account.
+2. Clone the forked repository to your local machine.
+3. Open the project in your favorite IDE.
 
 ## Making Changes
 
-1.Make your changes to the code in your local copy of the repository.
-2.Commit your changes to your local copy of the repository.
-3.Push your changes to your forked repository on GitHub.
-4.Create a pull request to merge your changes into the main Eco-Exchange repository.
+1. Make your changes to the code in your local copy of the repository.
+2. Commit your changes to your local copy of the repository.
+3. Push your changes to your forked repository on GitHub.
+4. Create a pull request to merge your changes into the main Eco-Exchange repository.
 
 ## Submitting Pull Requests
 
-1.When you are ready to submit your changes, click the "New Pull Request" button in the GitHub UI.
-2.In the pull request, provide a brief description of your changes and why you are making them.
-3.Click the "Create Pull Request" button to submit your changes for review.
+1. When you are ready to submit your changes, click the "New Pull Request" button in the GitHub UI.
+2. In the pull request, provide a brief description of your changes and why you are making them.
+3. Click the "Create Pull Request" button to submit your changes for review.
 
 ### Code Review
 
