@@ -1,54 +1,66 @@
-# Eco-Exchange - A Sustainable Bartering Platform
-Table of Contents
-About
-Getting Started
-Contributing
-License
+# Eco-Exchange Backend
 
-### About <a name = "about"></a>
-Eco-Exchange is a sustainable bartering platform that promotes the exchange of goods and services in an eco-friendly manner. Our aim is to build a community that supports and fosters sustainability by reducing waste and promoting reusability.
+This repository contains the backend code for the Eco-Exchange application, developed using Spring Boot and MySQL.
 
-### Getting Started <a name = "getting-started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Development Plan
 
-## Prerequisites
+The backend development plan is divided into several phases, which include setting up the environment, developing core functionality, connecting with the frontend, and testing & debugging. 
 
-Java Development Kit (JDK)
-Node.js and npm (Node Package Manager)
-Vue CLI (Command Line Interface)
-IntelliJ IDEA or Eclipse (any of your prefrences)
-Spring Boot and other necessary libraries
-MySQL database
-Setting Up
+### Getting Started
 
-## Backend
+#### Prerequisites
 
-1. Clone the repository: git clone https://github.com/Mandip77/SustainableExchnage.git.
-2. Navigate to the project directory: cd eco-exchange.
-3. Open the project in your preferred IDE.
-4. Install the necessary dependencies.
-5. Set up your MySQL database and update the configuration in application.properties.
-6. Run the application: ./mvnw spring-boot:run.
+- Java 17
+- Maven
+- MySQL
 
-## Frontend
-1. Navigate to the frontend directory: cd frontend.
-2. Install the dependencies: npm install.
-3. Run the Vue.js application: npm run serve.
-4. Contributing <a name = "contributing"></a>
+#### Setup
 
-We welcome contributions from everyone. Here's how you can help:
+1. Clone the repository:
 
-1. Fork the repository: Click on the 'Fork' button at the top right corner of this page.
-2. Clone your forked repository to your local machine: git clone https://github.com/<Mandip77>/SustainableExchange.
-3. Navigate to the cloned directory: cd eco-exchange.
-4. Create a new branch for your feature: git checkout -b feature/YourFeatureName.
-5. Make your changes and commit them: git commit -m 'Add some feature'.
-6. Push the branch to your forked repository on GitHub: git push origin feature/YourFeatureName.
-7. Create a new pull request from your forked repository to our original repository.
-8. For detailed guidance, check out the GitHub Flow Guide.
+    ```bash
+    git clone https://github.com/yourusername/eco-exchange-backend.git
+    cd eco-exchange-backend
+    ```
 
-Before creating a pull request, please ensure you have tested your changes thoroughly and adhered to the existing coding style.
+2. Update the `application.properties` file with your database credentials.
 
-### License <a name = "license"></a>
-  
-This project is licensed under the MIT License. See the LICENSE file for more details.
+3. Build the project:
+
+    ```bash
+    mvn clean install
+    ```
+
+4. Run the application:
+
+    ```bash
+    mvn spring-boot:run
+    ```
+
+The application will start running at `http://localhost:8080`.
+
+### API Endpoints
+
+(List all the endpoints of your application here, with a brief explanation of their functionalities)
+
+### Testing
+
+Unit tests can be run with:
+
+    ```bash
+    mvn test
+    ```
+
+### Deployment
+
+1. Build the project:
+
+    ```bash
+    mvn clean install
+    ```
+
+2. The generated JAR file can be deployed on the cloud service provider of your choice.
+
+### Contributing
+
+Explain how to contribute to your project, if applicable.
